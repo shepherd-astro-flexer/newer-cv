@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Sacramento&display=swap');
+/*************** TAG SELECTOR ***************/
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Plus Jakarta Sans', 'Roboto', sans-serif;
+  color: #40514E;
+}
+
+hr {
+  border-style: dotted none none ;
+  border-width: 6px;
+  border-color: #d0f6f6;
+  margin: 90px auto;
+  width: 4%;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', sans-serif;
+  font-size: 6.25rem;
+  line-height: 2;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+h4 {
+  
+}
+
+h5 {
+  
+}
+
+h6 {
+  
+}
+
+/*************** CLASS SELECTOR ***************/
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #1199e);
+  background-image: -o-linear-gradient(top, #11cdd4, #1199e);
+  background-image: linear-gradient(to bottom, #11cdd4, #1199e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Plus Jakarta Sans', Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2b4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2b4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2b4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2b4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2b4ad);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 90px;
+  padding: 30px 0 30px 0;
+}
+
+.copyright {
+  color: #EAF6F6;
+}
+
+.profile-image {
+  height: 200px;
+  width: 200px;
+  margin-top: 90px;
+}
+
+.contact-description {
+  width: 30%;
+  margin: 30px auto 50px auto;
+}
+
+.top-container {
+  background-color: #BEEBE9;
+  position: relative;
+  padding: 100px;
+  padding-bottom: 0;
+}
+
+.bottom-cloud {
+  position: absolute; /* para mawala sa flow yung bottom-cloud element at maigitna ang mountain image */
+  left: 350px;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 20px;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.profile-text {
+  line-height: 2;
+  margin: auto;
+  width: 25%;
+}
+
+.skill-image-1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-image-2 {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 350px;
+}
+
+.my-name {
+  margin: 40px auto 0 auto;
+}
+
+.my-job {
+  margin-top: 0;
+}
+
+
+
+
+
